@@ -1,8 +1,5 @@
 # Network Anomaly Detector GUI
 
-![Java CI with Maven](https://github.com/<YourUsername>/<YourRepoName>/actions/workflows/maven.yml/badge.svg) <!-- Optional: Add a CI badge if you set one up -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Choose your license -->
-
 A Java Swing desktop application for monitoring Windows Event Logs (Application, Security, System, Setup) to help identify potential security anomalies and system issues through filtering and highlighting.
 
 ---
@@ -59,11 +56,9 @@ It leverages PowerShell's `Get-WinEvent` cmdlet in the background for native log
 
 ## Screenshots
 
-*(Please replace these placeholders with actual screenshots of your application)*
-
 **Main Window:**
 ![Main application interface showing log pane, filters, and controls.](placeholder-main-window.png)
-`[ **Screenshot: Main Application Window Overview** ]`
+**Screenshot: Main Application Window Overview**
 
 **Filtering in Action:**
 ![Application showing filters applied (e.g., Log Name=Security, Anomaly Type=Failed Login).](placeholder-filtering.png)
