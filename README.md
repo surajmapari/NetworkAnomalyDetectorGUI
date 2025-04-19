@@ -61,15 +61,11 @@ It leverages PowerShell's `Get-WinEvent` cmdlet in the background for native log
 [**Screenshot: Main Application Window Overview**]
 
 **Filtering in Action:**
-![Application showing filters applied (e.g., Log Name=Security, Anomaly Type=Failed Login).](placeholder-filtering.png)
+![Application showing filters applied (e.g., Log Name=Security, Anomaly Type=Failed Login).]([placeholder-filtering.png](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Screenshot%202025-04-19%20115255.png))
 `[ **Screenshot: Filtering Logs (e.g., Security / Failed Login)** ]`
 
-**Anomaly Highlighting:**
-![Log pane showing various log entries highlighted with different colors (Red, Purple, Orange, Yellow).](placeholder-highlighting.png)
-`[ **Screenshot: Log Pane with Highlighted Anomalies & Search** ]`
-
 **Event Info Dialog:**
-![The Event Info dialog box showing descriptions and colors for various Event IDs.](placeholder-event-info.png)
+![The Event Info dialog box showing descriptions and colors for various Event IDs.]([placeholder-event-info.png](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Screenshot%202025-04-19%20115420.png))
 `[ **Screenshot: Event Info Dialog Box** ]`
 
 ## Prerequisites
