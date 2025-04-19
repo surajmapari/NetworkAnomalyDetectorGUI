@@ -65,12 +65,6 @@ It leverages PowerShell's `Get-WinEvent` cmdlet in the background for native log
 **Event Info Dialog:**
 ![The Event Info dialog box showing descriptions and colors for various Event IDs.](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Screenshot%202025-04-19%20115420.png)
 
-**High-Level Component Diagram**
-![](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Editor%20_%20Mermaid%20Chart-2025-04-19-062853.png)
-
-**Sequence Diagram**
-![](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Editor%20_%20Mermaid%20Chart-2025-04-19-063621.png)
-
 ## Prerequisites
 
 *   **Operating System:** Windows (Tested on Windows 10/11, should work on Server versions)
@@ -134,6 +128,12 @@ It leverages PowerShell's `Get-WinEvent` cmdlet in the background for native log
 *   **UI:** Java Swing (Nimbus Look and Feel)
 *   **System Interaction:** PowerShell (`Get-WinEvent`) invoked via `java.lang.ProcessBuilder`
 *   **Parsing:** Java Regular Expressions (`java.util.regex`)
+
+**High-Level Component Diagram:**
+![](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Editor%20_%20Mermaid%20Chart-2025-04-19-062853.png)
+
+**Sequence Diagram:**
+![](https://github.com/surajmapari/NetworkAnomalyDetectorGUI/blob/main/images/Editor%20_%20Mermaid%20Chart-2025-04-19-063621.png)
 
 ## Limitations & Known Issues
 
